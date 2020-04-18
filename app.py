@@ -16,5 +16,8 @@ def hello_name(name):
     return "Hello {}!".format(name)
 
 
+print(f'App settings are: {os.environ["APP_SETTINGS"]}')
+
+
 if __name__ == '__main__':
     app.run()
